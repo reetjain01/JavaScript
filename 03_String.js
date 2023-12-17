@@ -10,9 +10,7 @@
 //     console.log(myName[i] + " ");
 // }
 
-
-
-// Strings Methods 
+// Strings Methods
 
 // 1. length
 
@@ -21,36 +19,29 @@ let str = "ReetJain";
 // length is a property
 // console.log(str.length);
 
-
 // 2. uppercase and lowercase
 
 // toUpperCase is a Function(Method) so we have to use () to call it.
 // console.log(str.toUpperCase());
 // console.log(str.toLocaleLowerCase());
 
-
 // 3. slice
 // console.log(str.slice(0,2));
 // console.log(str.slice(2));
 
-
 // 4. replace
 // console.log(str.replace("ReetJain", "REETJAIN"));
-
 
 // 5. concat
 // let friend = "Tatva";
 // console.log(str.concat(" is a friend of ", friend, " OK"));
 
-console.log(str.indexOf("R"))
-
+console.log(str.indexOf("R"));
 
 // 6. trim
 // let friend = "        Tatva        ";
 // console.log(friend);
 // console.log(friend.trim());
-
-
 
 // Question
 // let str2 = "Please Give me Rs 1000";
@@ -58,6 +49,4 @@ console.log(str.indexOf("R"))
 // console.log(amount);
 // console.log(typeof(amount));
 
-
 // String is immutable as we cannot change or modify
- 
